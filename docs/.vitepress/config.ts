@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
+  base:'/shaoyu-i/',
   ignoreDeadLinks: true,
   title: "张小兔。",
   outDir: "./dist",
   head:[
-    ['link',{rel:'icon',href:'/static/logo.png'}],
+    ['link',{rel:'icon',href:'/shaoyu-i/static/logo.png'}],
     ['script',{},
       `var _hmt = _hmt || [];
           (function() {
